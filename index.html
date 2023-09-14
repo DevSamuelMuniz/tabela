@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela de comparação - Samuel</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f5f5f5;
+            flex-direction: column;
+        }
+
+        .table-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            margin-bottom: 20px; 
+        }
+
+        .table-container {
+            max-width: 400px;
+            overflow-y: auto;
+            margin: 10px; 
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            background-color: #fff;
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 6px 10px; 
+            text-align: left;
+            font-size: 11px;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+
+        @media (max-width: 768px) {
+            .table-container {
+                max-width: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="table-section">
+        <div class="table-container">
+            <h2>JavaScript</h2>
+    <table>
+        <tr>
+            <th>Características</th>
+            <td>Procedural, Orientado a Objetos</td>
+        </tr>
+        <tr>
+            <td>Tipo de Dados</td>
+            <td>Dinâmico</td>
+        </tr>
+        <tr>
+            <td>Tipagem</td>
+            <td>Fraca</td>
+        </tr>
+        <tr>
+            <td>Uso</td>
+            <td>Front-end (Navegadores), Back-end (Node.js)</td>
+        </tr>
+        <tr>
+            <td>Popularidade</td>
+            <td>Muito Alta</td>
+        </tr>
+        <tr>
+            <td>Comunidade</td>
+            <td>Grande e Ativa</td>
+        </tr>
+        <tr>
+            <td>Ecossistema</td>
+            <td>Vasto (npm)</td>
+        </tr>
+        <tr>
+            <td>Facilidade de Aprendizado</td>
+            <td>Relativamente Fácil</td>
+        </tr>
+        <tr>
+            <td>Aplicações Notáveis</td>
+            <td>Aplicações Web Interativas, Jogos em Navegadores</td>
+        </tr>
+        <tr>
+            <td>Empresas que a Utilizam</td>
+            <td>Google, Facebook, Airbnb</td>
+        </tr>
+        <tr>
+            <td>Minha opnião</td>
+            <td>Muito boa, principalmente para interação web</td>
+        </tr>
+    </table>
+        </div>
+
+        <div class="table-container">
+            <h2>Java</h2>
+    <table>
+        <tr>
+            <th>Características</th>
+            <td>Orientado a Objetos</td>
+        </tr>
+        <tr>
+            <td>Tipo de Dados</td>
+            <td>Estático</td>
+        </tr>
+        <tr>
+            <td>Tipagem</td>
+            <td>Forte</td>
+        </tr>
+        <tr>
+            <td>Uso</td>
+            <td>Aplicações Empresariais, Android</td>
+        </tr>
+        <tr>
+            <td>Popularidade</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Comunidade</td>
+            <td>Grande e Ativa</td>
+        </tr>
+        <tr>
+            <td>Ecossistema</td>
+            <td>Amplo (Maven, Gradle)</td>
+        </tr>
+        <tr>
+            <td>Facilidade de Aprendizado</td>
+            <td>Moderadamente difícil</td>
+        </tr>
+        <tr>
+            <td>Aplicações Notáveis</td>
+            <td>Aplicações Empresariais, Android Apps</td>
+        </tr>
+        <tr>
+            <td>Empresas que a Utilizam</td>
+            <td>Oracle, eBay, Netflix</td>
+        </tr>
+        <tr>
+            <td>Minha opnião</td>
+            <td>Extença e trabalhosa, mas segura</td>
+        </tr>
+    </table>
+        </div>
+
+        <div class="table-container">
+            <h2>PHP</h2>
+    <table>
+        <tr>
+            <th>Características</th>
+            <td>Procedural, Orientado a Objetos</td>
+        </tr>
+        <tr>
+            <td>Tipo de Dados</td>
+            <td>Dinâmico</td>
+        </tr>
+        <tr>
+            <td>Tipagem</td>
+            <td>Fraca</td>
+        </tr>
+        <tr>
+            <td>Uso</td>
+            <td>Servidor Web, Scripting</td>
+        </tr>
+        <tr>
+            <td>Popularidade</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Comunidade</td>
+            <td>Grande e Ativa</td>
+        </tr>
+        <tr>
+            <td>Ecossistema</td>
+            <td>Amplo (Composer)</td>
+        </tr>
+        <tr>
+            <td>Facilidade de Aprendizado</td>
+            <td>Moderadamente fácil</td>
+        </tr>
+        <tr>
+            <td>Aplicações Notáveis</td>
+            <td>Páginas Web Dinâmicas</td>
+        </tr>
+        <tr>
+            <td>Empresas que a Utilizam</td>
+            <td>Facebook, Wikipedia</td>
+        </tr>
+        <tr>
+            <td>Minha opnião</td>
+            <td>Simples e direta</td>
+        </tr>
+    </table>
+        </div>
+    </div>
+
+    <div class="table-section">
+        <div class="table-container">
+            <h2>Python</h2>
+    <table>
+        <tr>
+            <th>Características</th>
+            <td>Orientado a Objetos</td>
+        </tr>
+        <tr>
+            <td>Tipo de Dados</td>
+            <td>Dinâmico</td>
+        </tr>
+        <tr>
+            <td>Tipagem</td>
+            <td>Forte</td>
+        </tr>
+        <tr>
+            <td>Uso</td>
+            <td>Aplicações Web, Scripting, Automação</td>
+        </tr>
+        <tr>
+            <td>Popularidade</td>
+            <td>Muito Alta</td>
+        </tr>
+        <tr>
+            <td>Comunidade</td>
+            <td>Enorme e Ativa</td>
+        </tr>
+        <tr>
+            <td>Ecossistema</td>
+            <td>Extensivo (PyPI)</td>
+        </tr>
+        <tr>
+            <td>Facilidade de Aprendizado</td>
+            <td>Muito Fácil</td>
+        </tr>
+        <tr>
+            <td>Aplicações Notáveis</td>
+            <td>Scripting, Desenvolvimento Web, Automação</td>
+        </tr>
+        <tr>
+            <td>Empresas que a Utilizam</td>
+            <td>Google, Instagram, Spotify</td>
+        </tr>
+        <tr>
+            <td>Minha opnião</td>
+            <td>Posso fazer tudo com pouco kkkk</td>
+        </tr>
+    </table>
+        </div>
+
+        <div class="table-container">
+            <h2>C#</h2>
+            <table>
+                <tr>
+                    <th>Características</th>
+                    <td>Orientado a Objetos</td>
+                </tr>
+                <tr>
+                    <td>Tipo de Dados</td>
+                    <td>Estático</td>
+                </tr>
+                <tr>
+                    <td>Tipagem</td>
+                    <td>Forte</td>
+                </tr>
+                <tr>
+                    <td>Uso</td>
+                    <td>Aplicações Windows, Jogos (Unity)</td>
+                </tr>
+                <tr>
+                    <td>Popularidade</td>
+                    <td>Alta</td>
+                </tr>
+                <tr>
+                    <td>Comunidade</td>
+                    <td>Grande e Ativa</td>
+                </tr>
+                <tr>
+                    <td>Ecossistema</td>
+                    <td>Amplo (.NET, NuGet)</td>
+                </tr>
+                <tr>
+                    <td>Facilidade de Aprendizado</td>
+                    <td>Moderadamente Fácil</td>
+                </tr>
+                <tr>
+                    <td>Aplicações Notáveis</td>
+                    <td>Análise Estatística, Machine Learning</td>
+                </tr>
+                <tr>
+                    <td>Empresas que a Utilizam</td>
+                    <td>Microsoft, Stack Overflow, Accenture</td>
+                </tr>
+                <tr>
+                    <td>Minha opnião</td>
+                    <td>Muito completa, para games principalmente</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="table-container">
+            <h2>R</h2>
+    <table>
+        <tr>
+            <th>Características</th>
+            <td>Funcional, Orientado a Objetos</td>
+        </tr>
+        <tr>
+            <td>Tipo de Dados</td>
+            <td>Dinâmico</td>
+        </tr>
+        <tr>
+            <td>Tipagem</td>
+            <td>Fraca</td>
+        </tr>
+        <tr>
+            <td>Uso</td>
+            <td>Análise Estatística, Visualização de Dados</td>
+        </tr>
+        <tr>
+            <td>Popularidade</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Comunidade</td>
+            <td>Grande e Ativa</td>
+        </tr>
+        <tr>
+            <td>Ecossistema</td>
+            <td>Robusto (CRAN)</td>
+        </tr>
+        <tr>
+            <td>Facilidade de Aprendizado</td>
+            <td>Moderadamente Difícil</td>
+        </tr>
+        <tr>
+            <td>Aplicações Notáveis</td>
+            <td>Análise Estatística, Visualização de Dados</td>
+        </tr>
+        <tr>
+            <td>Empresas que a Utilizam</td>
+            <td>Google, Facebook, Twitter</td>
+        </tr>
+        <tr>
+            <td>Minha opnião</td>
+            <td>Fundamental saber para análise</td>
+        </tr>
+    </table>
+        </div>
+    </div>
+</body>
+</html>
